@@ -1,0 +1,17 @@
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\bin\Debug\net8.0-windows\Ejercicio1.exe
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\bin\Debug\net8.0-windows\Ejercicio1.deps.json
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\bin\Debug\net8.0-windows\Ejercicio1.runtimeconfig.json
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\bin\Debug\net8.0-windows\Ejercicio1.dll
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\bin\Debug\net8.0-windows\Ejercicio1.pdb
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.Form1.resources
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.csproj.GenerateResource.cache
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.AssemblyInfoInputs.cache
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.AssemblyInfo.cs
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.sourcelink.json
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.dll
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\refint\Ejercicio1.dll
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.pdb
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\Ejercicio1.genruntimeconfig.cache
+C:\Users\jeffe\OneDrive\Documentos\ING SOFTWARE\CICLO 4\POE\POE-LAB1\Ejercicio1\Ejercicio1\obj\Debug\net8.0-windows\ref\Ejercicio1.dll
