@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio1")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd829f1fa04f83a16598c366c15212521a139a39")]
-[assembly: System.Reflection.AssemblyProductAttribute("Ejercicio1")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio1")]
+[assembly: System.Reflection.AssemblyProductAttribute("Ejercicio6")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
