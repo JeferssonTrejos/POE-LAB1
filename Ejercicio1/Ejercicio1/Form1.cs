@@ -15,15 +15,24 @@ namespace Ejercicio1
 
             string firsTextOrder = string.Concat(firsText.OrderBy(c => c));
             string secondTextOrder = string.Concat(secondText.OrderBy(c => c));
-
-            if (firsTextOrder == secondTextOrder)
+            if (string.IsNullOrEmpty(firsText) || string.IsNullOrEmpty(secondText))
             {
-                resultLabel.Text = $"{firsText} \n Y \n{secondText} \n SI son un anagrama";
+                MessageBox.Show("Los campos no pueden estar vacíos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
             else
             {
-                resultLabel.Text = $"{firsText} \n Y \n{secondText} \n NO son un anagrama";
+                if (firsTextOrder == secondTextOrder)
+                {
+                    resultLabel.Text = $"{firsText} \n Y \n{secondText} \n SI son un anagrama";
+                }
+                else
+                {
+                    resultLabel.Text = $"{firsText} \n Y \n{secondText} \n NO son un anagrama";
+                }
             }
+
+
         }
     }
 }

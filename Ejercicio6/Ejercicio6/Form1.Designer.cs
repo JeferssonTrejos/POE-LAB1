@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             velocityLabel = new Label();
-            VelocityTextBox = new TextBox();
+            speedTextBox = new TextBox();
             timeTextBox = new TextBox();
             timeLabel = new Label();
             label1 = new Label();
@@ -48,13 +48,13 @@
             velocityLabel.TabIndex = 0;
             velocityLabel.Text = "Velocidad";
             // 
-            // VelocityTextBox
+            // speedTextBox
             // 
-            VelocityTextBox.BorderStyle = BorderStyle.FixedSingle;
-            VelocityTextBox.Location = new Point(100, 156);
-            VelocityTextBox.Name = "VelocityTextBox";
-            VelocityTextBox.Size = new Size(158, 34);
-            VelocityTextBox.TabIndex = 1;
+            speedTextBox.BorderStyle = BorderStyle.FixedSingle;
+            speedTextBox.Location = new Point(100, 156);
+            speedTextBox.Name = "speedTextBox";
+            speedTextBox.Size = new Size(158, 34);
+            speedTextBox.TabIndex = 1;
             // 
             // timeTextBox
             // 
@@ -136,10 +136,10 @@
             Controls.Add(label1);
             Controls.Add(timeTextBox);
             Controls.Add(timeLabel);
-            Controls.Add(VelocityTextBox);
+            Controls.Add(speedTextBox);
             Controls.Add(velocityLabel);
             Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -149,7 +149,7 @@
         #endregion
 
         private Label velocityLabel;
-        private TextBox VelocityTextBox;
+        private TextBox speedTextBox;
         private TextBox timeTextBox;
         private Label timeLabel;
         private Label label1;

@@ -12,14 +12,28 @@ namespace Ejercicio6
         {
             try
             {
-                double speed = Convert.ToDouble(VelocityTextBox.Text.ToString());
-                double time = Convert.ToDouble(timeTextBox.Text.ToString());
+                if (string.IsNullOrEmpty(speedTextBox.Text) ||string.IsNullOrEmpty(timeTextBox.Text))
+                {
+                    MessageBox.Show("Por favor, llene todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    double speed = Convert.ToDouble(speedTextBox.Text.ToString());
+                    double time = Convert.ToDouble(timeTextBox.Text.ToString());
 
-                Aceleration aceleration = new Aceleration(speed, time);
+                    if (double.IsNegative(speed) || double.IsNegative(time))
+                    {
+                        MessageBox.Show("No puedes ingresar numeros negativos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                double result = Math.Round(aceleration.calculate(), 2);
-                resultLabel.Text = $"{result}m/s²";
+                    }
+                    else
+                    {
+                        Aceleration aceleration = new Aceleration(speed, time);
 
+                        double result = Math.Round(aceleration.calculate(), 2);
+                        resultLabel.Text = $"{result}m/s²";
+                    }
+                }
             }
             catch (FormatException)
             {

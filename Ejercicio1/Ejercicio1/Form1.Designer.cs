@@ -74,7 +74,7 @@
             // 
             // secondTextBox
             // 
-            secondTextBox.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            secondTextBox.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             secondTextBox.Location = new Point(109, 241);
             secondTextBox.Name = "secondTextBox";
             secondTextBox.Size = new Size(231, 38);
