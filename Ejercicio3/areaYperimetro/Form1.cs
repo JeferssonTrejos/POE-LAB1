@@ -10,22 +10,23 @@ namespace areaYperimetro
         {
             InitializeComponent();
         }
-
+        // Evento para calcular el área
         private void AreaButton_Click(object sender, EventArgs e)
         {
             double valor = 0;
-
+            // Verifica que el valor sea valido
             if (double.TryParse(ValorTextBox.Text, out valor))
-            {
+            {    // Si se selecciona el cuadrado, calcula su área
                 if (cuadradoButton.Checked)
                 {
                     Cuadrado cuadrado = new Cuadrado(valor);
-                    cuadroResultado.Text = $"�rea: {cuadrado.CalcularArea()}";
+                    cuadroResultado.Text = $"Área: {cuadrado.CalcularArea()}";
                 }
+                // Si se selecciona la circunferencia, calcula su área
                 else if (circunferenciaButton.Checked)
                 {
                     Circunferencia circunferencia = new Circunferencia(valor);
-                    cuadroResultado.Text = $"�rea: {circunferencia.CalcularArea()}";
+                    cuadroResultado.Text = $"Área: {circunferencia.CalcularArea()}";
                 }
                 else
                 {
@@ -34,25 +35,26 @@ namespace areaYperimetro
             }
             else
             {
-                MessageBox.Show("Ingrese un valor v�lido.");
+                MessageBox.Show("Ingrese un valor válido.");
             }
         }
-
+        // Evento para calcular el perímetro
         private void PerimetroButton_Click(object sender, EventArgs e)
         {
             double valor = 0;
-
+            // Verifica que el valor ingresado sea un número válido
             if (double.TryParse(ValorTextBox.Text, out valor))
-            {
+            {    // Si se selecciona el cuadrado, calcula su perímetro
                 if (cuadradoButton.Checked)
                 {
                     Cuadrado cuadrado = new Cuadrado(valor);
-                    perimetroResultado.Text = $"Per�metro: {cuadrado.CalcularPerimetro()}";
+                    perimetroResultado.Text = $"Perímetro: {cuadrado.CalcularPerimetro()}";
                 }
+                // Si se selecciona la circunferencia, calcula su perímetro
                 else if (circunferenciaButton.Checked)
                 {
                     Circunferencia circunferencia = new Circunferencia(valor);
-                    perimetroResultado.Text = $"Per�metro: {circunferencia.CalcularPerimetro()}";
+                    perimetroResultado.Text = $"Perímetro: {circunferencia.CalcularPerimetro()}";
                 }
                 else
                 {
@@ -61,7 +63,7 @@ namespace areaYperimetro
             }
             else
             {
-                MessageBox.Show("Ingrese un valor v�lido.");
+                MessageBox.Show("Ingrese un valor válido.");
             }
         }
 
