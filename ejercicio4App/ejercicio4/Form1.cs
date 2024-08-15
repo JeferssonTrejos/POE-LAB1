@@ -16,7 +16,7 @@ namespace ejercicio4
         {
             if (e.KeyChar == (char)Keys.Space)
             {
-                textLabel.Text = "cuidado! No se permite presionar la Barra Espaciadora";
+                textLabel.Text = "Cuidado! No se permite presionar la Barra Espaciadora";
                 e.Handled = true;
             }
             else
